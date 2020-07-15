@@ -1,0 +1,66 @@
+\linespread{1.15}
+\usepackage[left=1.5in,right=1.5in,top=1.5in,bottom=1.6in, footskip=.6in]{geometry}
+%\usepackage{geometry}
+%\geometry{margin=1.5in} 
+
+\usepackage[datesep=/]{datetime2}
+\DTMsetdatestyle{mmddyyyy}
+
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\usepackage[small,sf,bf]{titlesec}
+
+\usepackage{graphicx}
+
+\usepackage{xcolor}
+\definecolor{orange1}{RGB}{255,127,45}
+\definecolor{blue1}{RGB}{0,50,150}
+\definecolor{red1}{RGB}{192,0,0}
+\definecolor{maroon}{RGB}{93,23,37}
+
+
+%\setromanfont{Georgia}
+%\setsansfont{Tahoma}
+\setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Minion Pro} 
+\setsansfont[Ligatures={Common}, Numbers={OldStyle}]{Roboto}  %{Segoe UI Light} 
+\setmonofont[Mapping=tex-text,Scale=0.75]{Roboto Mono}  %{Lucida Console} 
+
+\usepackage{unicode-math} % loads fontspec
+\setmathfont[Scale=MatchLowercase]{Cambria Math}
+
+
+\usepackage{booktabs}
+
+\usepackage{enumitem}
+\setlist{nosep, topsep=1.5mm, leftmargin=.8cm, labelindent=.3cm}
+
+
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[L]{\texttt{\textcolor{gray}{\today}}}
+\fancyfoot[C]{\thepage}
+
+
+% Definitions
+\def\myauthor{{\Large{Gregory Johnson, Ph.D.}}}
+\def\myaffiliation{Mississippi State University}
+\def\myemail{\normalsize{\url{gregory.johnson@msstate.edu}}}
+\def\myweb{\url{http://loighic.net/}}
+\def\myphone{\footnotesize{267-416-0292}}
+
+
+
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue1, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
