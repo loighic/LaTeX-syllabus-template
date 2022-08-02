@@ -1,6 +1,6 @@
 # LaTeX syllabus template
 
-I've become partial to replacing the standard course syllabus with an "infographic" (see, for example, https://sites.google.com/view/chiahualin/teaching), but, at least for the time being, I'm stuck in the traditional syllabus rut. 
+I've partial to replacing the standard course syllabus with an "infographic" (see, for example, https://sites.google.com/view/chiahualin/teaching), but, at least for the time being, I'm stuck in the traditional syllabus rut. 
 
 This syllabus template is set up to pull the various different elements that have to be included into one document. 
 
